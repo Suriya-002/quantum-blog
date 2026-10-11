@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Your own runs of the scripts. My published runs live in my-results/.
+results/
+results_archive/
+
+# Never commit IBM Quantum logins or keys
+qiskit-ibm.json
+.qiskit/
+.env
+*.key
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

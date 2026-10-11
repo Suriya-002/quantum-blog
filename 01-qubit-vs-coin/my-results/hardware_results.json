@@ -1,0 +1,127 @@
+{
+  "experiment": "Qubit vs coin (Quantum, Explained #1)",
+  "data": "Raw counts from IBM quantum hardware. No error mitigation, no post-selection.",
+  "heads_tails": "heads = 0, tails = 1",
+  "backend": "ibm_fez",
+  "physical_qubit": 22,
+  "job_id": "db54e94lf4us73c3hco0",
+  "submitted_utc": "2026-10-10T14:09:39Z",
+  "collected_utc": "2026-10-10T14:09:59Z",
+  "shots_per_experiment": 4000,
+  "results": {
+    "toss_once": {
+      "counts": {
+        "0": 1990,
+        "1": 2010
+      },
+      "runs": 4000,
+      "p_heads": 0.4975,
+      "ci95_heads": [
+        0.4820151512201914,
+        0.5129896459962572
+      ]
+    },
+    "toss_twice": {
+      "counts": {
+        "0": 3986,
+        "1": 14
+      },
+      "runs": 4000,
+      "p_heads": 0.9965,
+      "ci95_heads": [
+        0.9941333399731076,
+        0.9979139328402189
+      ]
+    },
+    "toss_twice_peek": {
+      "counts": {
+        "0": 1966,
+        "1": 2034
+      },
+      "runs": 4000,
+      "p_heads": 0.4915,
+      "ci95_heads": [
+        0.47602295042088066,
+        0.5069933601150443
+      ],
+      "peek_counts": {
+        "0": 2031,
+        "1": 1969
+      },
+      "p_peek_heads": 0.50775,
+      "p_final_matches_peek": 0.49225,
+      "joint_counts_peek_then_final": {
+        "00": 983,
+        "01": 1048,
+        "10": 983,
+        "11": 986
+      }
+    }
+  },
+  "calibration_at_submit": {
+    "physical_qubit": 22,
+    "readout_error": 0.0032958984375,
+    "sx_error": 0.00024522839069557453,
+    "device_median_readout_error": 0.009765625,
+    "device_median_sx_error": 0.0003025271499435964,
+    "qubits_considered": 155,
+    "selection_rule": "lowest (readout error + 2 x sx error) on the device",
+    "t1_us": 70.18772295049759,
+    "t2_us": 58.976880524127985,
+    "prob_meas1_prep0": 0.000732421875,
+    "prob_meas0_prep1": 0.005859375,
+    "calibrated_at": "2026-10-10T06:52:41-07:00"
+  },
+  "transpiled_gate_counts": {
+    "toss_once": {
+      "rz": 2,
+      "sx": 1,
+      "measure": 1
+    },
+    "toss_twice": {
+      "rz": 4,
+      "sx": 2,
+      "barrier": 1,
+      "measure": 1
+    },
+    "toss_twice_peek": {
+      "rz": 4,
+      "sx": 2,
+      "measure": 2,
+      "barrier": 1
+    }
+  },
+  "software": {
+    "python": "3.12.3",
+    "qiskit": "2.5.2",
+    "qiskit_ibm_runtime": "0.50.0",
+    "os": "Windows 11"
+  },
+  "ibm_timestamps": {
+    "created": "2026-10-10T14:09:40.486788Z",
+    "finished": "2026-10-10T14:09:48.975965Z",
+    "running": "2026-10-10T14:09:41.993044Z"
+  },
+  "ibm_usage": {
+    "qpu_charge_time_seconds": 5,
+    "value": 0.0803,
+    "unit": "resource_units",
+    "status": "complete",
+    "details": [
+      {
+        "value": 0.0803,
+        "unit": "resource_units",
+        "metric": {
+          "id": "caffe3ca-729c-5750-8777-df63bbf8bfd9",
+          "value": 5
+        }
+      }
+    ]
+  },
+  "calibration_at_run": {
+    "prob_meas1_prep0": 0.000732421875,
+    "prob_meas0_prep1": 0.005859375,
+    "readout_error": 0.0032958984375,
+    "calibrated_at": "2026-10-10T06:52:41-07:00"
+  }
+}

@@ -1,0 +1,4 @@
+# Python 3.10 or newer
+qiskit>=2.3,<3
+qiskit-ibm-runtime>=0.50,<0.51
+matplotlib>=3.8

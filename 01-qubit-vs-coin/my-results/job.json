@@ -1,0 +1,40 @@
+{
+  "job_id": "db54e94lf4us73c3hco0",
+  "backend": "ibm_fez",
+  "physical_qubit": 22,
+  "submitted_utc": "2026-10-10T14:09:39Z",
+  "shots_per_experiment": 4000,
+  "calibration": {
+    "physical_qubit": 22,
+    "readout_error": 0.0032958984375,
+    "sx_error": 0.00024522839069557453,
+    "device_median_readout_error": 0.009765625,
+    "device_median_sx_error": 0.0003025271499435964,
+    "qubits_considered": 155,
+    "selection_rule": "lowest (readout error + 2 x sx error) on the device",
+    "t1_us": 70.18772295049759,
+    "t2_us": 58.976880524127985,
+    "prob_meas1_prep0": 0.000732421875,
+    "prob_meas0_prep1": 0.005859375,
+    "calibrated_at": "2026-10-10T06:52:41-07:00"
+  },
+  "isa_ops": {
+    "toss_once": {
+      "rz": 2,
+      "sx": 1,
+      "measure": 1
+    },
+    "toss_twice": {
+      "rz": 4,
+      "sx": 2,
+      "barrier": 1,
+      "measure": 1
+    },
+    "toss_twice_peek": {
+      "rz": 4,
+      "sx": 2,
+      "measure": 2,
+      "barrier": 1
+    }
+  }
+}
