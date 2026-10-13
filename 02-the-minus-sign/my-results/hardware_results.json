@@ -1,0 +1,383 @@
+{
+  "experiment": "The minus sign you can't see (Quantum, Explained #2)",
+  "data": "Raw counts from IBM quantum hardware. No error mitigation, no post-selection.",
+  "heads_tails": "heads = 0, tails = 1",
+  "backend": "ibm_fez",
+  "physical_qubit": 22,
+  "job_id": "db64q6o4qg6s73c47u70",
+  "submitted_utc": "2026-10-12T02:59:40Z",
+  "collected_utc": "2026-10-12T03:00:40Z",
+  "shots_per_experiment": 4000,
+  "results": {
+    "spin_look": {
+      "counts": {
+        "0": 1961,
+        "1": 2039
+      },
+      "runs": 4000,
+      "p_heads": 0.49025,
+      "ci95_heads": [
+        0.4747748557795511,
+        0.5057438533645982
+      ],
+      "theory_p_heads": 0.5,
+      "gap_from_theory": -0.009749999999999981
+    },
+    "spin_between": {
+      "counts": {
+        "0": 45,
+        "1": 3955
+      },
+      "runs": 4000,
+      "p_heads": 0.01125,
+      "ci95_heads": [
+        0.008418594462484667,
+        0.015019261353198539
+      ],
+      "theory_p_heads": 0.0,
+      "gap_from_theory": 0.01125
+    },
+    "dial_000": {
+      "counts": {
+        "0": 3980,
+        "1": 20
+      },
+      "runs": 4000,
+      "p_heads": 0.995,
+      "ci95_heads": [
+        0.9922892796106572,
+        0.9967608715325383
+      ],
+      "theory_p_heads": 1.0,
+      "gap_from_theory": -0.0050000000000000044,
+      "dial_degrees": 0
+    },
+    "dial_030": {
+      "counts": {
+        "0": 3726,
+        "1": 274
+      },
+      "runs": 4000,
+      "p_heads": 0.9315,
+      "ci95_heads": [
+        0.9232507393195486,
+        0.938921261121439
+      ],
+      "theory_p_heads": 0.933012701892,
+      "gap_from_theory": -0.0015127018920000346,
+      "dial_degrees": 30
+    },
+    "dial_060": {
+      "counts": {
+        "0": 3028,
+        "1": 972
+      },
+      "runs": 4000,
+      "p_heads": 0.757,
+      "ci95_heads": [
+        0.7434661602727488,
+        0.7700406858763447
+      ],
+      "theory_p_heads": 0.75,
+      "gap_from_theory": 0.007000000000000006,
+      "dial_degrees": 60
+    },
+    "dial_090": {
+      "counts": {
+        "0": 2048,
+        "1": 1952
+      },
+      "runs": 4000,
+      "p_heads": 0.512,
+      "ci95_heads": [
+        0.4965055026287272,
+        0.5274714707323199
+      ],
+      "theory_p_heads": 0.5,
+      "gap_from_theory": 0.01200000000000001,
+      "dial_degrees": 90
+    },
+    "dial_120": {
+      "counts": {
+        "0": 1036,
+        "1": 2964
+      },
+      "runs": 4000,
+      "p_heads": 0.259,
+      "ci95_heads": [
+        0.24565960610258758,
+        0.2728028455630486
+      ],
+      "theory_p_heads": 0.25,
+      "gap_from_theory": 0.009000000000000008,
+      "dial_degrees": 120
+    },
+    "dial_150": {
+      "counts": {
+        "0": 314,
+        "1": 3686
+      },
+      "runs": 4000,
+      "p_heads": 0.0785,
+      "ci95_heads": [
+        0.07056369119769065,
+        0.08724511949552771
+      ],
+      "theory_p_heads": 0.066987298108,
+      "gap_from_theory": 0.011512701892000002,
+      "dial_degrees": 150
+    },
+    "dial_180": {
+      "counts": {
+        "0": 21,
+        "1": 3979
+      },
+      "runs": 4000,
+      "p_heads": 0.00525,
+      "ci95_heads": [
+        0.0034364629756095666,
+        0.008012906159550056
+      ],
+      "theory_p_heads": 0.0,
+      "gap_from_theory": 0.00525,
+      "dial_degrees": 180
+    },
+    "dial_210": {
+      "counts": {
+        "0": 257,
+        "1": 3743
+      },
+      "runs": 4000,
+      "p_heads": 0.06425,
+      "ci95_heads": [
+        0.057061607915626054,
+        0.07227454691134881
+      ],
+      "theory_p_heads": 0.066987298108,
+      "gap_from_theory": -0.002737298107999997,
+      "dial_degrees": 210
+    },
+    "dial_240": {
+      "counts": {
+        "0": 989,
+        "1": 3011
+      },
+      "runs": 4000,
+      "p_heads": 0.24725,
+      "ci95_heads": [
+        0.2341273231829363,
+        0.2608576754000078
+      ],
+      "theory_p_heads": 0.25,
+      "gap_from_theory": -0.0027500000000000024,
+      "dial_degrees": 240
+    },
+    "dial_270": {
+      "counts": {
+        "0": 2023,
+        "1": 1977
+      },
+      "runs": 4000,
+      "p_heads": 0.50575,
+      "ci95_heads": [
+        0.4902580655628221,
+        0.5212309008393463
+      ],
+      "theory_p_heads": 0.5,
+      "gap_from_theory": 0.005750000000000033,
+      "dial_degrees": 270
+    },
+    "dial_300": {
+      "counts": {
+        "0": 2987,
+        "1": 1013
+      },
+      "runs": 4000,
+      "p_heads": 0.74675,
+      "ci95_heads": [
+        0.7330410405826467,
+        0.7599854741538857
+      ],
+      "theory_p_heads": 0.75,
+      "gap_from_theory": -0.003249999999999975,
+      "dial_degrees": 300
+    },
+    "dial_330": {
+      "counts": {
+        "0": 3712,
+        "1": 288
+      },
+      "runs": 4000,
+      "p_heads": 0.928,
+      "ci95_heads": [
+        0.9195722023253231,
+        0.9356065142186926
+      ],
+      "theory_p_heads": 0.933012701892,
+      "gap_from_theory": -0.005012701891999982,
+      "dial_degrees": 330
+    },
+    "dial_360": {
+      "counts": {
+        "0": 3978,
+        "1": 22
+      },
+      "runs": 4000,
+      "p_heads": 0.9945,
+      "ci95_heads": [
+        0.991686108197535,
+        0.9963650023889503
+      ],
+      "theory_p_heads": 1.0,
+      "gap_from_theory": -0.005499999999999949,
+      "dial_degrees": 360
+    },
+    "_dial": {
+      "largest_gap_from_theory": 0.01200000000000001,
+      "fit": {
+        "middle": 0.5022611209783677,
+        "swing": 0.9907108545624479
+      }
+    }
+  },
+  "calibration_at_submit": {
+    "physical_qubit": 22,
+    "readout_error": 0.006103515625,
+    "sx_error": 0.0002309233190451497,
+    "device_median_readout_error": 0.009521484375,
+    "device_median_sx_error": 0.00031867643524690075,
+    "qubits_considered": 155,
+    "selection_rule": "qubit 22 as requested (better than the device median today)",
+    "best_qubit_today": 2,
+    "t1_us": 198.99005052854045,
+    "t2_us": 143.7460622481298,
+    "prob_meas1_prep0": 0.001953125,
+    "prob_meas0_prep1": 0.01025390625,
+    "calibrated_at": "2026-10-11T19:36:31-07:00"
+  },
+  "transpiled_gate_counts": {
+    "spin_look": {
+      "rz": 3,
+      "sx": 1,
+      "barrier": 1,
+      "measure": 1
+    },
+    "spin_between": {
+      "rz": 5,
+      "sx": 2,
+      "barrier": 2,
+      "measure": 1
+    },
+    "dial_000": {
+      "rz": 4,
+      "sx": 2,
+      "barrier": 2,
+      "measure": 1
+    },
+    "dial_030": {
+      "rz": 5,
+      "sx": 2,
+      "barrier": 2,
+      "measure": 1
+    },
+    "dial_060": {
+      "rz": 5,
+      "sx": 2,
+      "barrier": 2,
+      "measure": 1
+    },
+    "dial_090": {
+      "rz": 5,
+      "sx": 2,
+      "barrier": 2,
+      "measure": 1
+    },
+    "dial_120": {
+      "rz": 5,
+      "sx": 2,
+      "barrier": 2,
+      "measure": 1
+    },
+    "dial_150": {
+      "rz": 5,
+      "sx": 2,
+      "barrier": 2,
+      "measure": 1
+    },
+    "dial_180": {
+      "rz": 5,
+      "sx": 2,
+      "barrier": 2,
+      "measure": 1
+    },
+    "dial_210": {
+      "rz": 5,
+      "sx": 2,
+      "barrier": 2,
+      "measure": 1
+    },
+    "dial_240": {
+      "rz": 5,
+      "sx": 2,
+      "barrier": 2,
+      "measure": 1
+    },
+    "dial_270": {
+      "rz": 5,
+      "sx": 2,
+      "barrier": 2,
+      "measure": 1
+    },
+    "dial_300": {
+      "rz": 5,
+      "sx": 2,
+      "barrier": 2,
+      "measure": 1
+    },
+    "dial_330": {
+      "rz": 5,
+      "sx": 2,
+      "barrier": 2,
+      "measure": 1
+    },
+    "dial_360": {
+      "rz": 4,
+      "sx": 2,
+      "barrier": 2,
+      "measure": 1
+    }
+  },
+  "software": {
+    "python": "3.12.3",
+    "qiskit": "2.5.2",
+    "qiskit_ibm_runtime": "0.50.0",
+    "os": "Windows 11"
+  },
+  "ibm_timestamps": {
+    "created": "2026-10-12T02:59:39.981864Z",
+    "finished": "2026-10-12T03:00:29.665857Z",
+    "running": "2026-10-12T02:59:41.38788Z"
+  },
+  "ibm_usage": {
+    "qpu_charge_time_seconds": 18,
+    "value": 0.2874,
+    "unit": "resource_units",
+    "status": "complete",
+    "details": [
+      {
+        "value": 0.2874,
+        "unit": "resource_units",
+        "metric": {
+          "id": "caffe3ca-729c-5750-8777-df63bbf8bfd9",
+          "value": 18
+        }
+      }
+    ]
+  },
+  "calibration_at_run": {
+    "prob_meas1_prep0": 0.001953125,
+    "prob_meas0_prep1": 0.01025390625,
+    "readout_error": 0.006103515625,
+    "calibrated_at": "2026-10-11T19:36:31-07:00"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "job_id": "db64q6o4qg6s73c47u70",
+  "backend": "ibm_fez",
+  "physical_qubit": 22,
+  "submitted_utc": "2026-10-12T02:59:40Z",
+  "shots_per_experiment": 4000,
+  "calibration": {
+    "physical_qubit": 22,
+    "readout_error": 0.006103515625,
+    "sx_error": 0.0002309233190451497,
+    "device_median_readout_error": 0.009521484375,
+    "device_median_sx_error": 0.00031867643524690075,
+    "qubits_considered": 155,
+    "selection_rule": "qubit 22 as requested (better than the device median today)",
+    "best_qubit_today": 2,
+    "t1_us": 198.99005052854045,
+    "t2_us": 143.7460622481298,
+    "prob_meas1_prep0": 0.001953125,
+    "prob_meas0_prep1": 0.01025390625,
+    "calibrated_at": "2026-10-11T19:36:31-07:00"
+  },
+  "isa_ops": {
+    "spin_look": {
+      "rz": 3,
+      "sx": 1,
+      "barrier": 1,
+      "measure": 1
+    },
+    "spin_between": {
+      "rz": 5,
+      "sx": 2,
+      "barrier": 2,
+      "measure": 1
+    },
+    "dial_000": {
+      "rz": 4,
+      "sx": 2,
+      "barrier": 2,
+      "measure": 1
+    },
+    "dial_030": {
+      "rz": 5,
+      "sx": 2,
+      "barrier": 2,
+      "measure": 1
+    },
+    "dial_060": {
+      "rz": 5,
+      "sx": 2,
+      "barrier": 2,
+      "measure": 1
+    },
+    "dial_090": {
+      "rz": 5,
+      "sx": 2,
+      "barrier": 2,
+      "measure": 1
+    },
+    "dial_120": {
+      "rz": 5,
+      "sx": 2,
+      "barrier": 2,
+      "measure": 1
+    },
+    "dial_150": {
+      "rz": 5,
+      "sx": 2,
+      "barrier": 2,
+      "measure": 1
+    },
+    "dial_180": {
+      "rz": 5,
+      "sx": 2,
+      "barrier": 2,
+      "measure": 1
+    },
+    "dial_210": {
+      "rz": 5,
+      "sx": 2,
+      "barrier": 2,
+      "measure": 1
+    },
+    "dial_240": {
+      "rz": 5,
+      "sx": 2,
+      "barrier": 2,
+      "measure": 1
+    },
+    "dial_270": {
+      "rz": 5,
+      "sx": 2,
+      "barrier": 2,
+      "measure": 1
+    },
+    "dial_300": {
+      "rz": 5,
+      "sx": 2,
+      "barrier": 2,
+      "measure": 1
+    },
+    "dial_330": {
+      "rz": 5,
+      "sx": 2,
+      "barrier": 2,
+      "measure": 1
+    },
+    "dial_360": {
+      "rz": 4,
+      "sx": 2,
+      "barrier": 2,
+      "measure": 1
+    }
+  }
+}
