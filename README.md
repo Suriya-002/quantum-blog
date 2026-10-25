@@ -8,6 +8,7 @@ This is the code for my blog series on quantum computing. I explain one idea at 
 |---|---|---|
 | [01-qubit-vs-coin](01-qubit-vs-coin) | What a coin can't do | Toss a qubit twice. Does it act like a coin? |
 | [02-the-minus-sign](02-the-minus-sign) | The minus sign you can't see | Put one step you can't see between two tosses. Does it change the answer? |
+| [03-four-numbers](03-four-numbers) | Why do two qubits need four numbers? | Put a minus sign on a pair of qubits. Does a second toss make them agree? |
 
 Each folder has its own README with my results and the steps to run it yourself.
 
